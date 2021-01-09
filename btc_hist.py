@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
         
-df = pd.read_csv(r"C:\Users\KULLANICI\Desktop\İTÜ\python 2021\data science\bitstampUSD_1-min_data_2012-01-01_to_2020-09-14.csv")
+df = pd.read_csv(r"path in your computer") 
 
 #%%
 df.columns = [each.lower() for each in df.columns]
@@ -93,30 +93,4 @@ plt.xlabel("mean vol 1")
 plt.legend(loc = "best")
 plt.show()
 #%%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
